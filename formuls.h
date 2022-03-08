@@ -5,6 +5,10 @@
 void summa(int last)
 {
     int sum;
+<<<<<<< HEAD
+    putchar('\n');
+=======
+>>>>>>> 490f3a793824d31ec5b9131d4f3f503c03fa944f
 
     for (int i = 0, sum = 0; i <= last; i++){
         sum += i;
@@ -17,6 +21,10 @@ void summa(int last)
 void factor(int last)
 {
     int factor;
+<<<<<<< HEAD
+    putchar('\n');
+=======
+>>>>>>> 490f3a793824d31ec5b9131d4f3f503c03fa944f
 
     for (int i = 1, factor = 1; i <= last; i++){
         factor *= i;
@@ -28,6 +36,10 @@ void factor(int last)
 
 void fibbonachi(int last)
 {
+<<<<<<< HEAD
+    putchar('\n');
+=======
+>>>>>>> 490f3a793824d31ec5b9131d4f3f503c03fa944f
     int fibb[80];
     int count;
 
@@ -48,4 +60,25 @@ void minus(int a, int b)
 {
     printf("Subtracking %d from %d is %d\n",b, a, a-b);
     putchar('\n');
+<<<<<<< HEAD
+}
+
+int simple(int value)
+{
+    int num;
+    putchar('\n');
+
+    for(num = 2; num < value; num++){
+        if(value % num == 0){
+            printf("%d is not simple\n", value);
+            putchar('\n');
+            return 1;
+        }
+    }
+    printf("%d is simple\n", value);
+    putchar('\n');
+
+    return 0;
+=======
+>>>>>>> 490f3a793824d31ec5b9131d4f3f503c03fa944f
 }

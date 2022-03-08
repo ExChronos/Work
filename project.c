@@ -15,6 +15,10 @@ int main(void)
     printf("b.Factorial of number;\n");
     printf("c.Fibbonachi numbers;\n");
     printf("d.Minus;\n");
+<<<<<<< HEAD
+    printf("e.Simple value;\n");
+=======
+>>>>>>> 490f3a793824d31ec5b9131d4f3f503c03fa944f
     printf("$.Exit.\n");
 
     do {
@@ -43,6 +47,14 @@ int main(void)
                 scanf("%d%*c%d", &first, &second);
                 minus(first, second);
                 break;
+<<<<<<< HEAD
+            case 'e':
+                printf("Enter number that you want to know \"Simple it or no\" : \n");
+                scanf("%d", &num);
+                simple(num);
+                break;
+=======
+>>>>>>> 490f3a793824d31ec5b9131d4f3f503c03fa944f
             case '$':
                 printf("Okay. See you later...\n");
                 return 0;
